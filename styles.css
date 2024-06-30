@@ -1,1 +1,59 @@
-
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main-header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        #main-header h1 {
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        #about {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        #about .bio {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills .skill {
+            margin: 10px 0;
+        }
+        .skills .skill span {
+            display: block;
+            font-size: 14px;
+        }
+        .skills .skill .progress-bar {
+            width: 100%;
+            background-color: #ddd;
+        }
+        .skills .skill .progress-bar div {
+            height: 20px;
+            background-color: #77aaff;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+        }
